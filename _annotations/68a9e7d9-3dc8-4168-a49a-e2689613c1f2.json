@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR$8/canvas"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sorak0ne",
+                "name": "sorak0ne"
+            },
+            "created": "2022-04-27T12:07:27.005Z",
+            "modified": "2022-04-27T12:07:27.261Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR$8/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=724.505615234375,702.9730834960938,275.79327392578125,122.90789794921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "68a9e7d9-3dc8-4168-a49a-e2689613c1f2.json",
+    "motivation": "commenting"
+}
