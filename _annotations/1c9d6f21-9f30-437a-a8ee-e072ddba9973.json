@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR$8/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "bastion test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sorak0ne",
+                "name": "sorak0ne"
+            },
+            "created": "2022-04-27T12:06:56.955Z",
+            "modified": "2022-04-27T12:07:08.233Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR$8/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=715.5123901367188,711.96630859375,281.788818359375,122.9078369140625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.archivelab.org/iiif/8SSUP19085-34-NOR/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1c9d6f21-9f30-437a-a8ee-e072ddba9973.json",
+    "motivation": "commenting"
+}
